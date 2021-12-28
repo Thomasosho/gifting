@@ -21,12 +21,24 @@ Route::get('/about', function () {
     return view('about');
 });
 
-Route::get('/patient', function () {
-    return view('patient');
+Route::get('/cause', function () {
+    return view('cause');
 });
 
-Route::get('/sugery', function () {
-    return view('sugery');
+Route::get('/donate', function () {
+    return view('donate');
+});
+
+Route::get('/blog', function () {
+    return view('blog');
+});
+
+Route::get('/blog-view', function () {
+    return view('blog-view');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
 });
 
 Auth::routes();
